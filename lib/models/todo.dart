@@ -4,7 +4,7 @@ class Todo{
   String? description;
   String? category;
   String? todoDate;
-  int? isFinished;
+  int isFinished;
 
   todoMap(){
     var mapping = Map<String, dynamic>();
